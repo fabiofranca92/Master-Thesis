@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/untitled-ontology-254#"
+     xml:base="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/untitled-ontology-254"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main">
+        <owl:imports rdf:resource="http://purl.org/biotop/btl2.owl"/>
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isBearerOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#projectsOnto -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#InformationObject -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#ObjectQuality -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#StructuredBiologicalEntity -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#StructuredBiologicalEntity"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#ValueRegion -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalCluster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalCluster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#StructuredBiologicalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Benign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Benign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPortion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPortion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BoneOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BoneOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CardinalOrganPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CardinalOrganPart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#FasciaOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#FasciaOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SolidOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#HeterogeneousAnatomicalCluster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#HeterogeneousAnatomicalCluster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalCluster"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganCluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LobularOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LobularOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SolidOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Lobule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Lobule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Malignant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Malignant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MalignantAnatomicalStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MalignantAnatomicalStructure">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignity"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Malignant"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Metastasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Metastasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MalignantAnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MuscleOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MuscleOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SolidOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganCluster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganCluster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#AnatomicalCluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CardinalOrganPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSegment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSegment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CardinalOrganPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#PrimaryTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#PrimaryTumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MalignantAnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RegionOfOrganComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RegionOfOrganComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CardinalOrganPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefact">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefactPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefactPart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalUnit">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SolidOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SolidOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SubdivisionOfCardinalOrganPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#SubdivisionOfCardinalOrganPart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TNMClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TNMClassification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignity">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignityValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TissueDignityValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TumorAggregate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TumorAggregate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#MalignantAnatomicalStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Lobule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

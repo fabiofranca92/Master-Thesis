@@ -1,0 +1,2689 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#"
+     xml:base="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#hasPart"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isBearerOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#isPartOf"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isRepresentedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#projectsOnto -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#ObjectQuality -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#ValueRegion -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AdventitiaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AdventitiaOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumorQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQualityValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQualityValueRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSitu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSitu">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confined"/>
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confined"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#EpithiliumOfLargeIntestine"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LaminaPropriaOfLargeIntestine"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSituValueRegion"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSituValueRegion"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_Tis"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTis"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_Tis"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTis"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSituValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CarcinomaInSituValueRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumorQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality1to3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality1to3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CardinalityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality4orMore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality4orMore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CardinalityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CardinalityValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#CardinalityValueRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Colon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Colon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumQualityValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumQualityValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#PrimaryTumor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumorQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumorQuality">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNMClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNMClassification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefactPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMClinicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMClinicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_NX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_NX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMClinicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_TX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_TX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_Tis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_Tis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pNX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pNX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ConfinementValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumorQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ConfinementValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ConfinementValueRegion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DescendingColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DescendingColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistalPartOfSigmoidColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistalPartOfSigmoidColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistantMetastasisOfColonAndRectumTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistantMetastasisOfColonAndRectumTumor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastasisOfColonAndRectumTumor"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#EpithiliumOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#EpithiliumOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MucosaOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#GastrointestinalTract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#GastrointestinalTract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IleocolicLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IleocolicLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InferiorMesentericLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InferiorMesentericLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPre-AorticLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InferiorRectalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InferiorRectalLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InternalIliacLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InternalIliacLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Intestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Intestine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#GastrointestinalTract"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubDivisionOfGastrointestinalSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#GastrointestinalTract"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ConfinementValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfMuscularLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfMuscularLayer">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MuscularLayerOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T2"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T2"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfOtherOrgansOrStructures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfOtherOrgansOrStructures">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ"/>
+                                    <owl:Class>
+                                        <owl:complementOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4b"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4b"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4b"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4b"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfSubmucosa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfSubmucosa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubmucosaOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT1"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT1"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfSubserosa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfSubserosa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AdventitiaOfLargeIntestine"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubserosaOfLargeIntestine"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T3"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT3"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T3"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT3"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfVisceralPeritoneum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InvasiveTumorOfVisceralPeritoneum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Confinement"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Invasive"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPeritoneum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4a"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4a"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4a"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4a"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LaminaPropriaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LaminaPropriaOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MucosaOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LateralSacralLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LateralSacralLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DescendingColon"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DescendingColon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MesorectalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MesorectalLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastasisOfColonAndRectumTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastasisOfColonAndRectumTumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Metastasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticLymphNode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastasisOfColonAndRectumTumor"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticRegionalLymphNodeOfColonAndRectumTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticRegionalLymphNodeOfColonAndRectumTumor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleColicLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleColicLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicFlexure"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleRectalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleRectalLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MucosaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MucosaOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MuscularLayerOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MuscularLayerOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessmentOfPrimaryTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessmentOfPrimaryTumor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_TX"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTX"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_TX"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTX"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQualityValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidenceOfPrimaryTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidenceOfPrimaryTumor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T0"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT0"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T0"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT0"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Peritoneum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Peritoneum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#PresacralLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#PresacralLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RectosigmoidLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RectosigmoidLymphNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RegionOfPeritoneum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RegionOfPeritoneum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RegionOfOrganComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMClinicalClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMClinicalClassification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonRectumTNMClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonAndRectumTNMPathologicalClassification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonRectumTNMClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonRectumTNMClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RepresentationalUnitInColonRectumTNMClassification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AscendingColon"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cecum"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicFlexure"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumRegionalLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralPromontoryLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralPromontoryLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfLargeIntestine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSegment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SerosaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SerosaOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubDivisionOfGastrointestinalSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubDivisionOfGastrointestinalSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubmucosaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubmucosaOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubserosaOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SubserosaOfLargeIntestine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SuperiorRectalLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SuperiorRectalLymphNode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Rectum"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidColon"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TransverseColon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SegmentOfColon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TumorAggregate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWith1to3MetastaticRegionalLymphNodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWith1to3MetastaticRegionalLymphNodes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithMetastaticRegionalLymphNodes"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality1to3"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality1to3"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWith4orMoreMetastaticRegionalLymphNodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWith4orMoreMetastaticRegionalLymphNodes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithMetastaticRegionalLymphNodes"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality4orMore"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Cardinality4orMore"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithDistantMetastasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithDistantMetastasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistantMetastasisOfColonAndRectumTumor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithMetastaticRegionalLymphNodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithMetastaticRegionalLymphNodes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MetastaticRegionalLymphNodeOfColonAndRectumTumor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoAssessmentOfRegionalLymphNodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoAssessmentOfRegionalLymphNodes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_NX"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pNX"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_NX"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pNX"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoDistantMetastasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoDistantMetastasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#DistantMetastasisOfColonAndRectumTumor"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoEvidenceOfMetastaticRegionalLymphNodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoEvidenceOfMetastaticRegionalLymphNodes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoEvidence"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N0"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN0"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRepresentedBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N0"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN0"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPeritoneum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPeritoneum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RegionOfPeritoneum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPre-AorticLymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPre-AorticLymphNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#WallOfLargeIntestine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LargeIntestine"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#BodyPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#CavitatedOrgan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#LymphNode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Metastasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Metastasis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#Organ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganComponentLayer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSegment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSegment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#OrganSystemSubdivision"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#PrimaryTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#PrimaryTumor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RegionOfOrganComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RegionOfOrganComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefactPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalArtefactPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#RepresentationalUnit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TumorAggregate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#TumorAggregate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main#WallOfOrgan"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Metastasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#Metastasis">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumWithNoDistantMetastasis"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#PrimaryTumor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#PrimaryTumor">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonAndRectumTumor"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RegionalLymphNodes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RegionalLymphNodes">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#TumorOfColonAndRectumAggregate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#AssessmentQuality"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#NoAssessment"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_NX"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InferiorRectalLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#InternalIliacLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IntestinalLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MesorectalLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleRectalLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RectosigmoidLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralLymphNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pNX"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_TX"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_Tis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LeftColicLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#MiddleColicLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#RightColicLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SigmoidLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SuperiorRectalLymphNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_M"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_T"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_N1c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColicLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#IleocolicLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#VisceralPre-AorticLymphNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#LateralSacralLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#PresacralLymphNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#SacralPromontoryLymphNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pT4b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pTX"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0#ColonRectumTNM_pN1c"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

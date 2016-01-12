@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main" uri="tnm_main.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/tnm_main" uri="file:/Users/fabiofranca/Desktop/Versioning/NonMerged/tnm_main.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1424793758694" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424793758694" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/breastTNM_7.0" uri="breastTNM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424793758694" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_6.0" uri="colon_rectumTNM_6.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424793758694" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/colon_rectumTNM_7.0" uri="colon_rectumTNM_7.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1424793758694" name="http://www.semanticweb.org/fabiofranca/ontologies/2015/1/untitled-ontology-254" uri="tnm_main.owl"/>
+    </group>
+</catalog>

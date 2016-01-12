@@ -1,0 +1,382 @@
+Alter,Geschlecht,Primär/Sekundär,Seite,ICD-O C,ICD-O Title,Histologie,ICD-O DAM,Histology,Histology,Tumorgröße (cm),T-Kategorie,N-Kategorie,Anzahl befallene LK,Anzahl untersuchte LK,Lymphangiosis carcinomatosa,Perineural-scheideninvasion,M-Kategorie,Hämangiosis carcinomatosa,R-Klassifikation pathologisch
+73,männlich,Primärtumor,,C18.8,Overlapping lesion of colon,Adenokarzinom o.n.A.,8140/4,Adenocarcinoma NOS,G4,4.7,pT3,pN1,0,31,,,pMx,,R0
+78,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.2,pT2,pN0,0,13,L0,Pn0,,V0,R0
+85,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.5,pT3,pN0,0,19,L0,Pn0,,V0,R0
+81,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/5,Adenocarcinoma NOS,G3,4.5,pT1,pN2,,,,,pMx,,R0
+40,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT4,pN1,2,19,,,pMx,,R0
+72,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.7,pT3,pN1c,0,20,L0,Pn1,,V0,R0
+71,männlich,,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT3,pN2a,5,19,L0,Pn0,,V0,
+62,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.0,pT3,pN1,2,14,,,pMx,,R0
+68,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,4.5,pT4a,pN2b,,,L1,Pn1,pM1a,V0,R1
+58,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT4b,pN2,6,16,L1,Pn1,,V0,R1
+72,weiblich,Primärtumor,rechts,C18.0,Cecum,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,5.5,pT3,pN0,0,17,L0,Pn0,,V0,R0
+88,weiblich,,,C18.2,Ascending Colon,Villöses Adenom,8261/0,Villous adenoma NOS,,6.0,,,,,,,,,
+76,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.3,pT4a,pN2b,29,40,L1,Pn1,,V0,R0
+71,weiblich,Primärtumor,rechts,C18.0,Cecum,Siegelringzellkarzinom,8490/3,Signet ring cell carcinoma,G3,4.2,pT3,pN0,0,15,L1,Pn0,,V0,R0
+70,männlich,Primärtumor,,C18.9,Rectosigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT2,pN0,,,,,pMx,,R0
+67,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,,pT4a,pN2b,15,24,L1,Pn0,pM1a,V2,R0
+65,weiblich,Primärtumor,rechts,C18.0,Cecum,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G2,4.5,pT2,pN0,0,23,L0,Pn0,,V0,R0
+95,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.4,pT3,pN0,,,,,pMx,,R0
+63,männlich,,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,rpT3,rpN0,0,16,,Pn1,pM1a,V1,
+78,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT2,pN0,0,31,L0,Pn0,,V0,R0
+73,männlich,Primärtumor,,C18.9,Rectosigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.5,pT4,pN1,2,7,,,pMx,,
+80,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,,pT3,pN0,0,23,L0,Pn0,,V0,R0
+82,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,6.0,pT3,pN0,0,18,,,pM1,,R2
+71,männlich,Primärtumor,,C18.7,Sigmoid Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,7.0,pT3,pN0,0,12,L1,Pn0,pMx,V0,R0
+70,männlich,Primärtumor,,C18.5,Splenic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT2,pN0,0,21,L0,Pn0,,V0,R0
+72,weiblich,,links,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,rpT4b,,,,,,,,
+70,weiblich,Primärtumor,,C18.4,Transverse Colon,Azinuszellkarzinom,8550/3,Acinar cell carcinoma,G2,7.0,pT4,pN1,1,22,L1,Pn1,pMx,V0,R0
+63,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.0,pT2,pN0,0,20,,,pMx,,R0
+51,männlich,,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT3,pN1a,1,18,,,pM1b,,
+73,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT3,pN0,0,10,,,pMx,,R0
+87,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,4.5,pT3,pN0,0,21,,,pMx,,R0
+54,männlich,Primärtumor,,C20.9,Rectal ampulla,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,4.0,pT3,pN2b,7,17,L1,Pn0,,V0,R1
+68,männlich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,12.0,pT3,pN2,4,25,L0,Pn0,pMx,V0,R0
+70,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,1.2,pT3,pN0,0,10,L0,Pn0,pMx,V0,R0
+72,,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN0,0,17,,,pM0,,Rx
+61,männlich,,links,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN(folgt)*,,,L1,,,,
+57,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT1,pN0,0,18,,,pMx,,R0
+74,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT2,pN0,0,24,L0,Pn0,pMx,V0,R0
+68,,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.0,ypT2,ypN0,0,9,L0,,,V0,R0
+80,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.5,pT2,pN0,0,3,L0,Pn0,pMx,V0,R0
+50,männlich,Primärtumor,median,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.5,pT2,pN0,0,20,L0,Pn0,,V0,R0
+75,männlich,Primärtumor,,C18.3,Hepatic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,9.0,pT4,pN2,5,15,L1,Pn0,pMx,V0,R0
+69,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.0,pT4a,pN2b,7,12,L1,Pn1,,V0,R0
+55,weiblich,Metastase,rechts,C18.3,Hepatic Flexure,Maligner Granulosazelltumor,8620/6,,,2.9,,,,,,,,,
+69,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,8.0,pT4,pN2,4,20,L1,,pM1,,R0
+68,männlich,Primärtumor,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN2b,9,18,L0,Pn0,,V0,R0
+74,männlich,Primärtumor,rechts,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT4a,pN2b,,,L1,Pn1,,V1,R1
+81,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+86,weiblich,Primärtumor,rechts,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,9.8,pT3,pN0,0,24,L0,Pn0,,V0,R0
+51,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom vom intestinalen Typ,8144/3,Adenocarcinoma - intestinal type,G2,,pT4a,pN2b,,,L1,Pn0,,V1,R1
+62,weiblich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.5,pT3,pN1,2,12,,,pMx,,R0
+58,männlich,Primärtumor,,C19.9,RectoSigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,2.0,pT2,pN1,1,15,,,pMx,,R0
+85,weiblich,Primärtumor,rechts,C18.0,Cecum,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+58,männlich,,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT4a,pN2a,4,16,L1,Pn0,,V0,
+66,männlich,,,C18.9,Rectosigmoid,Villöses Adenom,8261/0,Villous adenoma NOS,,5.0,,,,,,,,,
+65,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.5,pT2,pN0,0,15,L0,Pn0,,V0,R0
+83,männlich,Primärtumor,links,C18.2,Ascending Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G3,,rpT3,pN0,,,L0,Pn0,pM1a,V0,R0
+73,weiblich,Primärtumor,,C18.8,Overlapping lesion of colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT3,pN1,1,11,,,pMx,,R0
+84,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,6.0,pT3,pN0,0,15,L0,Pn0,,V0,R0
+82,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4a,pN1c,,,L1,Pn0,,V0,R0
+83,weiblich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,,pT4a,pN2b,,,L1,Pn1,pM1,V1,R1
+68,männlich,,beidseits,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4b,pN1,2,28,L0,Pn0,pM1b,V1,
+82,männlich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT3,pN1b,,,L0,Pn0,pM1a,V0,R0
+86,weiblich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,,pT3,pN0,,,L0,Pn0,,V0,R0
+61,weiblich,Metastase,,C48.1,,Seröses papilläres Zystadenokarzinom,8460/6,,,,rpT3,,,,L1,,,,R0
+75,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.3,pT2,pN1,,,,,pMx,,R0
+73,weiblich,Primärtumor,links,C18.7,Sigmoid Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G3,5.0,pT3,pN2a,6,14,L0,Pn0,,V0,R0
+52,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,8.0,pT3,pN0,0,16,L1,Pn0,,V0,R0
+79,männlich,Primärtumor,,C18.6,Descending Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT2,pN0,,,L0,Pn0,,V0,R0
+72,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,2.8,pT3,pN1b,2,13,L1,Pn0,pM1,V0,R0
+39,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT3,pN1,3,12,,,pMx,,R0
+57,weiblich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.2,pT4a,pN2a,6,35,L1,Pn1,pM1b,V1,R0
+68,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT4b,pN0,,,L0,Pn0,,V0,R0
+24,weiblich,Primärtumor,,C18.9,Rectosigmoid,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,4.5,pT4,pN2,7,26,,,pM1,,R0
+58,männlich,Primärtumor,links,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,6.0,pT3,pN0,0,10,,,pMx,,R0
+77,männlich,,,C18.9,Rectosigmoid,Hepatozelluläres Karzinom o.n.A.,8170/6,Hepatocellular carcinoma NOS,G2,3.0,,,,,L1,Pn0,pM1,V0,R0
+47,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,ypT2,ypN1c,0,13,,,,,R0
+74,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN0,,,L0,Pn0,pM1a,Vx,
+54,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.0,pT3,pN2a,5,12,L1,Pn0,,V0,R0
+64,weiblich,,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.5,pT3,pN1,3,11,,,pMx,,R0
+51,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,5.4,pT4b,pN1a,1,26,L1,Pn0,,V0,R0
+73,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+59,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.0,pT4,pN1,3,13,L1,Pn0,pMx,V0,Rx
+36,männlich,Primärtumor,,C18.7,Sigmoid Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G2,3.0,pT3,pN2,,,,,pMx,,R0
+91,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Siegelringzellkarzinom,8490/3,Signet ring cell carcinoma,G2,3.6,pT3,pN0,0,19,L1,Pn0,,V0,R0
+68,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+66,männlich,Primärtumor,,C18.9,Rectosigmoid,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,8.0,pT4,pN0,0,18,,,pMx,,Rx
+65,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom vom intestinalen Typ,8144/3,Adenocarcinoma - intestinal type,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+35,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,1.4,pT3,pN1a,1,14,L1,Pn1,,V0,R0
+66,,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,7.0,pT3,pN0,0,14,L0,,pMx,V0,R0
+86,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.3,pT4a,pN2b,10,34,L1,Pn0,,V0,R0
+77,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT3,pN0,,,L0,Pn0,,V0,R0
+52,,Primärtumor,,C18.6,Descending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT2,pN0,0,10,L0,,pMx,V0,R0
+25,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.8,rpT3,pN0,0,12,L0,Pn0,,V0,R0
+47,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN1b,,,L1,Pn1,,V1,R0
+55,weiblich,Primärtumor,,C18.4,Transverse Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G2,10.0,pT4b,pN0,0,20,L0,Pn0,pM1b,V0,R0
+70,männlich,Primärtumor,rechts,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN1c,,,L0,Pn0,pM1a,V1,R0
+65,männlich,Primärtumor,,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.1,pT1,pN1b,2,12,L1,Pn0,,V0,R0
+72,männlich,Metastase,links,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/6,Adenocarcinoma - metastatic NOS,,,ypT3,ypN2a,5,14,L0,Pn0,,V0,R0
+60,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenocarcinoma in situ in tubulovillösem Adenom,8263/2,Adenocarcinoma in situ in tubulovillous adenoma,G2,6.5,pTis,pN0,0,16,,,,,R1
+83,weiblich,Primärtumor,,C18.3,Hepatic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT2,pN0,0,16,L0,Pn0,,V0,R0
+75,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4b,pN1b,,,L1,Pn1,pM1b,V1,Rx
+84,männlich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT4a,pN0,0,15,L1,Pn0,,V0,R0
+73,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G1,,pT1(sm3),pN0,,,L0,Pn0,,V0,R0
+70,männlich,Primärtumor,,C19.9,RectoSigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.5,pT3,pN0,0,25,L0,Pn0,pMx,V0,R0
+86,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.8,pT2,pN0,0,12,L0,Pn0,pMx,V0,R0
+71,männlich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,12,,,pMx,,R0
+68,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN1b,,,L1,Pn0,,V0,R0
+65,männlich,Primärtumor,links,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT3,pN1b,2,12,L1,Pn0,,V0,R0
+45,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.0,ypT3,ypN1,2,22,L1,Pn1,ypMx,V0,R0
+65,weiblich,Primärtumor,,C18.4,Transverse Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,8.0,pT3,pN1,1,5,,,pMx,,R0
+52,weiblich,Primärtumor,,C19.9,RectoSigmoid,Spindelzellig-epithelialer Tumor mit thymusähnlichen Anteilen,8588/3,Complex epithelial neoplasms,,1.0,,,1,13,,,pMx,,
+75,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,3.5,ypT3,ypN2b,8,18,L0,Pn0,ypM1,V0,R0
+81,weiblich,Primärtumor,,C18.6,Descending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,3.0,pT3,pN0,0,17,L0,Pn0,,V0,R0
+64,,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.0,pT1,pN0,0,20,,,pMx,,R0
+76,weiblich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,0.4,pT1(is),pN0,0,13,L0,Pn0,,V0,R0
+74,weiblich,,rechts,C18.3,Hepatic Flexure,Seröses papilläres Zystadenokarzinom,8460/3,Papillary serous cystadenocarcinoma ,G3,5.0,,,,,,,,,R0
+34,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,2.7,pT3b,pN2a,6,22,L1,Pn1,pM1,V1,R0
+70,männlich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom in villösem Adenom,8261/3,Adenocarcinoma in villous adenoma,G1,,pTis,pN0,0,9,L0,Pn0,,V0,R0
+38,weiblich,Primärtumor,,C20.9,Rectal ampulla,Gastrointestinales Stromasarkom,8936/3,,,3.5,,,,,,,pMx,,
+47,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,4.0,ypT2,ypN0,0,19,L0,Pn0,,V0,R0
+63,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,6.0,pT2,pN0,0,20,,,pMx,,R0
+42,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,2.7,ypT0,ypN0,0,19,L0,Pn0,,V0,R0
+68,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,,ypT3,ypN1b,2,23,L0,Pn0,,V0,R0
+89,weiblich,Primärtumor,,C18.5,Splenic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN1a,1,41,L1,Pn0,,V0,R0
+56,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,8.0,pT3,pN0,0,22,L0,Pn0,,V0,R0
+70,männlich,Primärtumor,,C18.4,Transverse Colon,Gastrointestinales Stromasarkom,8936/3,,,1.5,,,,,,,,,
+55,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.0,pT3,pN2b,7,14,L1,Pn0,,V0,R0
+61,männlich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT3,pN1c,0,20,L0,Pn1,pM1b,V1,R2
+75,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.0,pT2,pN0,0,12,L0,Pn0,pMx,V0,R0
+68,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN0,0,17,L0,Pn0,pMx,V0,R0
+73,weiblich,Primärtumor,,C18.5,Splenic Flexure,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,,pT3,pN0,0,16,L0,Pn0,,V0,R0
+87,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,16,L0,Pn0,,V0,R0
+83,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom,8140/3,Adenocarcinoma NOS,G2,9.8,pT4b,pN0,0,22,L0,Pn0,,V0,
+51,weiblich,,,C18.9,Rectosigmoid,Seröses papilläres Zystadenokarzinom,8460/3,Papillary serous cystadenocarcinoma ,G2,8.5,,,,,,,,,
+69,männlich,Primärtumor,,C18.9,Rectosigmoid,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G2,6.0,pT3,pN0,0,15,,,pMx,,R0
+76,,Metastase,rechts,C48.1,,Adenokarzinom o.n.A.,8140/6,Adenocarcinoma - metastatic NOS,G3,0.0,,ypN1,4,66,L1,,pM1,V0,Rx
+50,,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT3,pN0,0,20,L0,,pMx,V0,R0
+71,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.5,pT3,pN0,0,14,L0,Pn0,,V0,R0
+84,männlich,Primärtumor,rechts,C18.3,Hepatic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.3,pT3,pN0,0,15,L0,Pn0,,V0,R0
+66,männlich,Primärtumor,,C18.0,Cecum,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,2.5,pT3,pN1,2,14,,,pM1,,R0
+79,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT3,pN1,1,19,L1,Pn0,pMx,V0,R0
+82,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,5.2,pT3,pN1,2,16,,,pMx,,R0
+57,weiblich,Primärtumor,,C19.9,RectoSigmoid,Leiomyosarkom o.n.A.,8890/3,,,6.0,pT2b,pN0,0,15,L0,Pn0,,V0,R0
+74,weiblich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.0,pT3,pN1,2,18,,,pMx,,R0
+61,männlich,Primärtumor,,C18.7,Sigmoid Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,2.0,pT3,pN1,2,22,,,pM1,,R0
+71,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.0,pT3,pN2a,4,27,L1,Pn0,,V0,R0
+59,,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN0,0,17,L0,Pn0,pMx,V0,R0
+69,weiblich,Primärtumor,,C18.6,Descending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,2.0,pT4a,pN0,0,17,L0,Pn0,,V0,R0
+69,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,21,L0,Pn0,pMx,V0,R0
+66,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT1,pN0,0,13,,,pMx,,R0
+81,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,22,L0,Pn0,,V0,R0
+66,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.5,ypT3,pN2a,6,14,L1,Pn0,pM1,V0,R0
+49,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,9.0,pT3,pN1,1,20,L1,Pn0,pMx,V0,R0
+68,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.1,pT3,pN2a,4,23,L0,Pn0,,V0,R0
+59,weiblich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.8,pT2,pN2,8,15,,,pMx,V1,R0
+53,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,2.5,ypT3,ypN2b,8,14,L1,Pn0,ypM1,V0,R0
+79,weiblich,Primärtumor,,C18.2,Ascending Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G2,2.5,pT3,pN0,0,24,L0,Pn0,,V0,R0
+73,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN0,0,18,L0,Pn0,,V0,R0
+74,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,rpT4b,,,,L1,Pn1,,V0,R1
+78,männlich,,links,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4a,pN1b,2,21,L1,Pn0,,V0,
+79,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.8,ypT4b,pN2b,10,16,L1,Pn0,,V0,R0
+51,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.5,pT3,pN1,1,11,,,pMx,,R0
+77,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT1(sm3),pN0,0,15,L0,Pn0,,V0,R0
+64,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT3,pN2b,8,18,L1,Pn1,,V1,R0
+61,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.2,pT2,pN0,0,13,L0,Pn0,,V0,R0
+44,männlich,Primärtumor,links,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.4,pT3,pN0,0,38,L0,Pn0,,V0,R0
+63,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT3,pN0,0,15,,,pMx,,R0
+55,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,2.7,pT3,pN1,2,15,L1,Pn0,pMx,V0,R0
+76,,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT4,pN1,6,18,L1,,pMx,V1,R0
+57,männlich,Primärtumor,,C18.6,Descending Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,3.5,pT3,pN0,0,20,L0,Pn0,pM0,V0,R0
+54,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.0,pT2,pN1,2,9,,,pMx,V1,R0
+51,weiblich,Primärtumor,rechts,C18.9,Rectosigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,3.0,pT3,pN0,0,19,L0,Pn0,,V0,R0
+78,,Primärtumor,,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN0,0,31,L0,Pn0,pMx,V0,R0
+74,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,,pT3,pN0,0,16,L0,Pn0,,V0,R0
+38,männlich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT2,pN0,0,23,L0,Pn0,,V0,R0
+58,weiblich,Primärtumor,,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT2,pN0,0,23,,,pMx,,R0
+65,männlich,Primärtumor,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,5.0,pT3,pN1c,2,23,L1,Pn1,,V0,R0
+58,,Primärtumor,,C26.0,,Maligner Granulosazelltumor,8620/3,,,4.0,,rpNx,,0,,,pMx,,R0
+64,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT4,pN1,3,20,L1,Pn0,pMx,V0,R0
+39,,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,9,L1,Pn0,pMx,V0,R0
+89,weiblich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G1,10.0,pT2,pN1a,1,19,L1,Pn0,,V0,R0
+54,weiblich,,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT4a,pN2a,5,25,L1,Pn0,pM1b,V0,R0
+78,männlich,Primärtumor,,C18.3,Hepatic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,,2.0,pT3,pN1a,1,21,L0,Pn0,,V0,R0
+56,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,11.5,pT3,pN0,0,18,L0,Pn0,,V0,R0
+73,männlich,,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT2,pN0,0,25,L0,Pn0,,V0,
+77,männlich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.5,pT3,pN0,0,19,L0,Pn0,,V0,R0
+69,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,,pT4a,pN2a,6,20,L1,Pn1,pM1b,V1,R2
+76,weiblich,Primärtumor,rechts,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,4.0,pT3,pN2a,6,12,L0,Pn0,,V0,R0
+79,männlich,Primärtumor,,C18.6,Descending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,0,12,,,pMx,,R0
+74,weiblich,,,C18.7,Sigmoid Colon,Keimstrang Stromatumor o.n.A.,8590/1,Specialized gonadal neoplasms,,12.0,,,,,,,,,
+65,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,3.0,,rpN1,2,12,,Pn1,pMx,,R0
+65,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN1b,2,14,L1,Pn0,pMx,V0,R0
+59,männlich,Primärtumor,,C18.2,Ascending Colon,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,8.5,pT2,pN0,0,2,L0,Pn0,,V0,R0
+73,männlich,Primärtumor,,C18.7,Sigmoid Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G2,4.5,pT2,pN0,0,14,L1,Pn0,,V0,R0
+53,männlich,Primärtumor,rechts,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT2,pN0,0,19,L0,Pn0,,V0,R0
+68,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.7,pT2,pN0,0,17,L1,Pn0,,V0,R0
+85,männlich,Primärtumor,rechts,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,5.0,pT3,pN1b,3,16,L0,Pn0,,V0,R0
+64,weiblich,,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN2a,4,19,L1,Pn1,,V0,
+70,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.5,pT2,pN0,0,15,L0,Pn0,pMx,V0,R0
+61,männlich,Primärtumor,,C18.0,Cecum,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G2,8.0,pT4,pN0,0,22,L1,Pn0,pMx,V0,R0
+46,weiblich,Primärtumor,,C18.0,Cecum,Burkitt-Lymphom o.n.A.,9687/3,,,4.7,,,,,,,,,
+68,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT2,pN0,0,1,,,,,R1
+82,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.2,pT3,pN0,0,15,L0,Pn0,,V0,R0
+79,männlich,,rechts,C18.2,Ascending Colon,Adenokarzinom vom intestinalen Typ,8144/3,Adenocarcinoma - intestinal type,G3,,pT4a,pN2b,19,20,L1,Pn1,pM1b,V1,
+86,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Undifferenziertes Karzinom,8020/3,,G4,3.6,pT3,pN2b,14,18,L1,Pn1,,V1,R0
+64,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT1,pN0,0,19,L0,Pn0,,V0,R0
+79,weiblich,,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT3,pN1a,1,17,L0,Pn0,,V0,
+59,weiblich,Primärtumor,links,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,7.3,pT4b,pN0,0,66,L0,Pn0,,V0,R0
+43,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.5,pT2,pN0,0,20,L0,Pn0,pM1,V1,R0
+54,männlich,,rechts,C18.3,Hepatic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,0,16,L0,Pn0,,V0,
+29,,Primärtumor,,C18.2,Ascending Colon,Adultes pleomorphes Rhabdomyosarkom,8901/3,,,0.0,pT1b,pNx,,0,L0,Pn0,pM1,V0,R2
+65,weiblich,Primärtumor,links,C19.9,RectoSigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN2a,4,16,L1,Pn0,pM1a,V1,R0
+71,männlich,,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,2.8,ypT2,ypN0,0,6,L0,Pn0,ypM1,V0,R0
+45,weiblich,Primärtumor,links,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT2,pN0,0,21,L0,Pn0,,V0,R0
+70,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT3,pN0,0,15,L0,Pn0,,V0,R0
+63,,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,6.0,pT3,pN2,7,18,L1,Pn0,pMx,V1,R0
+57,weiblich,Primärtumor,,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.5,pT3,pN1a,1,11,L1,Pn0,pM1,V0,R0
+45,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,8.0,pT4a,pN2b,11,15,L1,Pn0,pM1,V0,R0
+66,männlich,Primärtumor,,C18.0,Cecum,Karzinom o.n.A.,8010/3,,G3,3.0,,,,,,,pMx,,
+65,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.3,pT3,pN0,0,14,L0,Pn0,,V0,R0
+68,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT3,pN0,0,15,L0,Pn0,,V0,R0
+86,weiblich,Primärtumor,,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,2.9,pT2,pN1a,1,22,L1,Pn0,,V0,R0
+48,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,11.0,pT4a,pN2b,8,24,L1,Pn1,pM1a,V1,R0
+71,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,2.5,pT2,pN0,0,14,L0,Pn0,,V0,R0
+72,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,8.0,pT4,pN2b,9,21,L1,Pn1,,V1,
+47,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,,pT3,pN1b,2,27,L1,Pn0,,V1,R0
+45,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,13,,,pMx,,R0
+72,männlich,,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,0.5,yrpT3,,,,L0,Pn0,,V0,Rx
+71,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN1,,,,,pMx,,
+70,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,4.3,ypT3,ypN0,0,16,L0,Pn0,,V0,R0
+71,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,6.0,pT3,pN0,0,15,L0,Pn0,pMx,V0,R0
+73,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G1,7.5,pT2,pN0,0,15,L0,Pn0,,V0,R0
+87,weiblich,Primärtumor,,C18.4,Transverse Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,1.5,pT4a,pN1b,2,22,L1,Pn0,pM1,V0,R0
+61,weiblich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,5.5,pT4,pN2,36,42,,,pM1,,R1
+69,männlich,Primärtumor,rechts,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.2,pT3,pN1b,2,17,L1,Pn0,,V0,R0
+94,männlich,Primärtumor,,C18.0,Cecum,Medulläres Karzinom,8510/3,,G3,,pT3,pN0,0,13,L1,Pn1,,V0,
+53,männlich,,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,,3.9,ypT3,pN0,0,12,L0,Pn0,,V0,R0
+59,weiblich,Primärtumor,,C20.9,Rectal ampulla,Myxoides Leiomyosarkom,8896/3,,,6.6,,,,,,,,,
+69,weiblich,Primärtumor,,C17.2,Ileum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.0,pT3,pN0,,,,,pMx,,R0
+70,männlich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.0,pT2,pN0,0,15,L0,Pn0,,V0,R0
+73,männlich,,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT2,pN0,0,24,L0,Pn0,,V0,
+49,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT3,pN2,10,13,L1,Pn0,pMx,V0,R0
+74,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN0,,,,,pMx,,R0
+71,weiblich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,4.0,pT3,pN1,,,,,pMx,,R0
+79,weiblich,Primärtumor,,C19.9,RectoSigmoid,Nichtverhornendes Plattenepithelkarzinom o.n.A.,8072/3,,G2,2.7,rpT3,pN1,1,12,,,pMx,,R0
+79,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,,pT1,pN0,0,18,L0,Pn0,,V0,R0
+87,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,9.0,pT3,pN0,,,,,pMx,,R0
+56,männlich,Primärtumor,,C18.4,Transverse Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.1,pT3,pN0,0,16,L0,Pn0,pMx,V0,R0
+75,weiblich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN0,0,19,,,pMx,,R0
+71,weiblich,Primärtumor,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,3.0,pT1,pN0,0,12,L0,Pn0,,V0,R0
+47,weiblich,Primärtumor,links,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,6.0,pT3,pN1,1,16,L0,Pn0,,V0,R0
+27,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.2,pT3,pN0,0,25,L0,Pn0,pMx,V0,R0
+71,männlich,Primärtumor,links,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.0,pT2,pN0,,,,,pMx,,R0
+76,männlich,,rechts,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN1a,1,17,L0,Pn0,,V0,
+54,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.4,pT1,pN0,0,12,L0,Pn0,pMx,V0,R0
+45,männlich,Primärtumor,,C17.2,Ileum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT3,pN2,10,29,L1,Pn1,pM1,V0,R0
+77,weiblich,Primärtumor,,C20.9,Rectal ampulla,Neuroendokriner Tumor (Karzinoid),8140/3,Adenocarcinoma NOS,G2,0.1,pT1a,pN0,0,24,L0,Pn0,,V0,
+66,männlich,,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4b,pN0,0,28,L0,Pn0,pM1a,V1,
+61,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.0,pT3,pN2b,,,L1,Pn0,pM1,V0,R0
+83,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT3(m),pN2a,4,15,L1,Pn0,,V0,R0
+68,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.3,pT3,pN1,2,18,L1,Pn0,pMx,V0,R0
+73,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT1,pN0,0,12,,,pMx,,R0
+18,männlich,Primärtumor,,C18.4,Transverse Colon,Siegelringzellkarzinom,8490/3,Signet ring cell carcinoma,G3,8.0,pT4a,pN2b,9,20,L1,Pn0,pM1b,V1,R0
+76,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,5.7,pT3,pN1a,1,12,L1,Pn0,,V0,R0
+43,männlich,,,C18.2,Ascending Colon,Adenokarzinom vom intestinalen Typ,8144/3,Adenocarcinoma - intestinal type,G2,,pT3,pN1a,1,18,L1,Pn0,pM1a,V0,R0
+90,männlich,,rechts,C18.2,Ascending Colon,Adenom o.n.A.,8140/0,,,7.0,,,,,,,,,
+51,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,4.0,pT3,pN2,6,16,,,pMx,,R0
+74,männlich,,,C18.4,Transverse Colon,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,4.0,pT3,pN0,0,12,L0,Pn0,,V0,R0
+91,weiblich,Primärtumor,rechts,C18.0,Cecum,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,6.0,pT3,pN0,0,19,L0,Pn0,,V0,R0
+79,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.0,pT3,pN1,1,12,L1,Pn0,pMx,V0,R0
+75,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.2,pT3,pN0,0,16,,,pMx,,R0
+72,,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT3,pN1,1,5,L0,Pn0,pMx,V0,R0
+73,männlich,Primärtumor,links,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT4,pN0,0,16,,,pMx,,R0
+54,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,4.5,pT1,pN2,,,,,pMx,,R0
+86,männlich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,11,,,pMx,,R0
+63,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,9.0,pT3,pN1,2,33,,,pMx,,R0
+75,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.7,pT3,pN1b,3,14,L1,Pn0,pMx,V0,R0
+75,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.2,ypT2,ypN0,0,16,L0,,ypMx,V0,R0
+62,weiblich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,12.0,pT3,pN2,,,,,pMx,,R0
+91,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.5,pT3,pN1,,,,,pMx,,R0
+65,männlich,,rechts,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,4.0,pT3,pN2,,,,,pMx,,R0
+81,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT1,pN0,,,,,pMx,,R0
+69,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT2,pN0,0,16,,,pMx,,R0
+59,weiblich,Metastase,,C18.8,Overlapping lesion of colon,Merkel-Zell-Karzinom,8247/6,Merkel cell carcinoma ,,16.0,,,,,,,,,
+63,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.8,pT1,pN0,0,19,L0,Pn0,,V0,R0
+70,weiblich,Primärtumor,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,,pT4,pN1c,0,14,L0,Pn0,pM1a,V0,R0
+77,weiblich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN0,0,27,,,pMx,,
+77,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,5.8,pT3,pN2,11,12,,,pMx,V1,R1
+84,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,10.0,pT3,pN0,0,20,L0,Pn0,,V0,R0
+66,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.9,pT3,pN1,1,18,,,pMx,,R0
+57,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN1,1,66,,,pMx,,R0
+71,männlich,Primärtumor,links,C18.5,Splenic Flexure,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.5,pT3,pN1,3,19,,,pMx,,R0
+54,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom in villösem Adenom,8261/3,Adenocarcinoma in villous adenoma,G2,4.5,pT3,pN1a,1,19,L1,Pn0,,V0,R0
+76,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.8,pT3,pN0,0,22,,,pMx,,R0
+72,männlich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.2,pT3,pN1a,1,14,L1,Pn0,pMx,V0,R0
+72,männlich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.5,pT3,pN1,3,16,,,pMx,,R0
+70,männlich,Metastase,,C78.5,,Adenokarzinom o.n.A.,8140/6,Adenocarcinoma - metastatic NOS,G3,5.8,,,,23,,,pM1,,
+81,weiblich,Primärtumor,rechts,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.5,pT2,pN0,,,,,pMx,,R0
+58,weiblich,,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.8,pT4,pN1,2,46,,,pMx,,R0
+85,weiblich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,8.0,pT3,pN0,0,24,,,pMx,,R0
+49,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,7.0,pT4,pN0,0,16,,,pMx,,R0
+51,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,2.2,ypT3,ypN0,0,16,L0,Pn0,pMx,V0,R0
+42,,Primärtumor,,C18.8,Overlapping lesion of colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,0.0,pT3,pN2,12,45,L1,Pn0,pMx,V0,R1
+65,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.5,pT3,pN0,0,30,,,pMx,,R0
+73,männlich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,5.0,pT3,pN2b,10,18,L1,Pn0,,V0,R0
+87,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.2,pT1,pN0,0,13,L0,Pn0,,V0,R0
+74,,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,rpT3,pNx,,0,,,pMx,,R0
+48,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,,ypT3,ypN1b,2,18,L1,Pn0,pM1,V0,R0
+49,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.2,pT3,pN0,0,18,,Pn0,pMx,,R0
+58,männlich,,,C18.4,Transverse Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,0,18,L0,Pn0,,V0,
+81,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,pT3,pN0,0,7,,,pMx,,R0
+71,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.5,pT3,pN1b,2,19,L1,Pn0,,V0,R0
+79,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT2,pN1,1,14,L0,Pn0,pMx,V0,R0
+40,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,7.0,pT3,pN2,5,10,,,pMx,,R0
+69,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT3,pN0,,,,,pMx,,R0
+85,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.5,pT2,pN0,0,28,L0,Pn0,,V0,R0
+74,weiblich,,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,,1.5,pT3,pN1,1,21,,,pMx,,R0
+59,männlich,,median,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4b,pN2b,28,45,L1,Pn0,pM1b,V1,
+79,männlich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,6.0,pT3,pN0,0,15,L0,Pn0,pMx,V0,R0
+69,männlich,,,C18.7,Sigmoid Colon,Marginalzonen-B-Zell-Lymphom o.n.A.,9699/3,,,6.0,,,,,,,,,
+58,,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.0,ypT2,ypN0,0,14,L0,Pn0,,V0,R0
+54,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,pT4b,pN1a,1,21,L1,Pn0,,V0,Rx
+46,weiblich,Primärtumor,,C18.0,Cecum,Muzinöses Adenokarzinom,8490/3,Signet ring cell carcinoma,G2,8.0,pT3,pN2,8,25,,,pMx,,R0
+66,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,rpT4b,,,,L0,Pn0,,V0,R1
+82,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.0,pT3,pN0,0,15,,,pMx,,R0
+79,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom in tubulovillösem Adenom,8263/3,Adenocarcinoma in tubulovillous adenoma,G2,4.0,pT1(sm3),pN0,0,15,L0,Pn0,,V0,R0
+71,weiblich,Primärtumor,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.5,pT3,pN0,0,13,L0,,pMx,V0,Rx
+61,männlich,Primärtumor,links,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.0,rpT4b,rpN1a,1,15,L0,Pn0,,V0,R0
+62,,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G3,4.0,pT2,pN0,0,8,L0,Pn0,pMx,V0,R0
+57,weiblich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.3,pT3,pN1a,1,12,L1,Pn0,pM1,V1,R0
+76,weiblich,Primärtumor,rechts,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,2.0,pT2,pN0,0,27,L0,Pn0,,V0,R0
+40,männlich,Primärtumor,,C18.7,Sigmoid Colon,Muzinöses Karzinom,8480/3,Mucinous adenocarcinoma,G3,3.0,pT4a,pN2,13,18,L1,Pn0,pM1b,V1,R1
+57,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.1,ypT2,ypN0,1,7,L0,Pn0,ypMx,V0,R0
+63,männlich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT3,pN0,0,14,,,pMx,,R0
+80,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT3,pN0,0,20,L0,Pn0,pMx,V0,R0
+68,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.2,pT3,pN1a,1,23,L1,Pn0,,V0,R0
+67,männlich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT2,pN0,,,,,pMx,,R0
+50,weiblich,,,C20.9,Rectal ampulla,Biphasisches Synovialsarkom,9043/3,,,5.0,pT1b,,0,9,,,,,R0
+65,männlich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.8,ypT3,ypN1,4,11,L1,Pn0,ypM1,V1,R0
+59,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT2,pN1,2,13,,,pMx,,R0
+69,männlich,Primärtumor,links,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.3,pT3,pN0,0,14,L0,Pn0,,V0,R0
+58,weiblich,Primärtumor,,C17.2,Ileum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT4,pN2,7,34,L1,Pn0,pM1,V1,R0
+59,weiblich,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.2,pT2,pN0,0,15,L0,Pn0,pMx,V0,R0
+69,männlich,Primärtumor,links,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,3.0,ypT4b,ypN0,0,2,L0,Pn0,,V0,R2
+73,weiblich,,links,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT2,pN0,0,8,L0,Pn0,,V0,
+51,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.0,ypT2,ypN0,0,2,L0,Pn0,ypMx,V0,R0
+82,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN1b,2,22,L1,Pn0,,V0,R0
+79,männlich,Primärtumor,links,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.2,pT3,pN0,0,21,L0,Pn0,,V0,Rx
+64,männlich,Primärtumor,links,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,4.0,pT3,pN2a,6,28,L0,Pn0,,V0,R0
+76,weiblich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.2,pT2,pN0,0,18,L0,Pn0,,V0,R0
+68,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,1.1,ypT3,ypN0,0,9,L0,Pn0,pMx,V0,R0
+82,weiblich,Primärtumor,rechts,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.5,pT3,pN1a,1,25,L0,Pn0,,V0,R0
+63,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT3,pN1c,1,15,L1,Pn0,,V1,R0
+69,männlich,Primärtumor,,C18.0,Cecum,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G3,7.1,pT3,pN0,0,26,L0,Pn0,pMx,V0,R0
+88,männlich,,rechts,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT1,pN0,0,27,L0,Pn0,,V0,
+59,weiblich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,5.0,pT3,pN1,1,19,L1,Pn0,pMx,V0,R0
+65,weiblich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,2.0,pT4a,pN2b,8,12,L1,Pn0,pM1b,V0,
+56,männlich,Primärtumor,,C18.7,Sigmoid Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,1.7,pT3,pN2a,6,23,L1,Pn1,pM1,V1,R0
+63,weiblich,,rechts,C18.3,Hepatic Flexure,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT4b,pN1b,3,42,L1,Pn0,,V0,
+61,weiblich,Primärtumor,,C18.2,Ascending Colon,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,2.5,pT4,pN0,0,4,L0,Pn0,,V0,Rx
+85,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN0,0,15,,,pMx,,R0
+82,,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT2,pN0,0,17,,,pMx,,R0
+63,weiblich,Primärtumor,,C18.9,Rectosigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,8.0,pT3,pN0,0,22,L1,Pn0,,V0,R0
+72,männlich,Primärtumor,,C19.9,RectoSigmoid,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,5.0,pT3,pN2,4,10,,,pMx,,R0
+69,männlich,Primärtumor,,C20.9,Rectal ampulla,Muzinöses Adenokarzinom,8480/3,Mucinous adenocarcinoma,G2,4.5,pT2,pN0,0,12,L0,,pMx,V0,R0
+50,weiblich,Primärtumor,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,12.0,pT4,pN1,3,45,,,pMx,,R0
+69,männlich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,6.0,pT4a,pN2b,21,22,L1,Pn0,,V1,R1
+75,männlich,,,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT2,pN2a,5,16,L1,Pn0,,V0,
+84,männlich,Primärtumor,,C20.9,Rectal ampulla,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.5,pT3,pN1c,3,15,L1,Pn0,,V0,
+55,männlich,Primärtumor,,C19.9,RectoSigmoid,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.5,pT2,pN1,1,25,L0,Pn0,pMx,V0,R0
+74,weiblich,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,3.5,pT4a,pN2b,12,14,L1,Pn0,pM1,V0,R0
+82,weiblich,Primärtumor,,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G4,6.0,pT3(m),pN1a,1,33,L0,Pn0,,V0,R0
+54,weiblich,,rechts,C18.2,Ascending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,,pT3,pN2a,6,22,L1,Pn1,pM1a,V0,
+72,,Primärtumor,,C18.0,Cecum,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G3,,pT2,pN3,5,12,L1,,pMx,V1,R0
+72,männlich,Primärtumor,,C18.6,Descending Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,4.0,pT3,pN0,0,23,L1,Pn0,,V1,R1
+76,männlich,,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN(folgt)*,1,11,L1,Pn0,,V0,
+64,männlich,Primärtumor,,C18.7,Sigmoid Colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,3.6,pT3,pN2,4,21,,,pMx,,R0
+73,männlich,Primärtumor,,C18.8,Overlapping lesion of colon,Adenokarzinom o.n.A.,8140/3,Adenocarcinoma NOS,G2,7.3,pT3(m),pN1a,1,37,L1,Pn0,,V0,R0
+72,,Primärtumor,,C20.9,Rectal ampulla,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,0,8,L0,,pMx,V0,R0
+66,weiblich,,,C18.0,Cecum,Tubuläres Adenokarzinom,8211/3,Tubular adenocarcinoma,G2,,pT3,pN0,0,22,L1,Pn0,,V0,
